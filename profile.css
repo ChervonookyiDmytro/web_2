@@ -1,0 +1,33 @@
+.profile-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 16px 100px;
+}
+
+
+.profile-card {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 576px) {
+  .profile-card {
+    padding: 1.5rem;
+  }
+
+  .profile-wrapper {
+    padding-top: 70px;
+    padding-bottom: 90px;
+  }
+
+  table th,
+  table td {
+    font-size: 0.95rem;
+  }
+}
